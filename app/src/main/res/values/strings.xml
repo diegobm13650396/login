@@ -107,4 +107,26 @@
     <string name="action_settings">Settings</string>
     <string name="user_name_error">Correo invalido</string>
     <string name="password_error">Contraseña invalida</string>
+    <string-array name="layouts">
+        <item>LinearLayout</item>
+        <item>TableLayout</item>
+        <item>AbsoluteLayout</item>
+        <item>FrameLayout</item>
+        <item>ConstraintLayout</item>
+    </string-array>
+    <string-array name="description_layouts">
+        <item>es uno de los Layout más utilizado en la práctica. Distribuye los elementos uno detrás de otro, bien de forma horizontal o vertical</item>
+        <item>distribuye los elementos de forma tabular. Se utiliza la etiqueta TableRow cada vez que queremos insertar una nueva línea</item>
+        <item>permite indicar las coordenadas (x,y) donde queremos que se visualice cada elemento. No es recomendable utilizar este tipo de Layout. La aplicación que estamos diseñando tiene que visualizarse correctamente en dispositivos con cualquier tamaño de pantalla. Para conseguir esto, no es una buena idea trabajar con coordenadas absolutas. De hecho, este tipo de Layout ha sido marcado como obsoleto.</item>
+        <item> posiciona las vistas usando todo el contenedor, sin distribuirlas espacialmente. Este Layout suele utilizarse cuando queremos que varias vistas ocupen un mismo lugar. Podemos hacer que solo una sea visible, o superponerlas.Para modificar la visibilidad de un elemento utilizaremos la propiedad visibility.</item>
+        <item>Versión más flexible y eficiente de RealiveLayout.</item>
+    </string-array>
+    <string-array name="image_layouts">
+        <item>https://javatutorial.net/wp-content/uploads/2017/08/maxresdefault-1.jpg</item>
+        <item>https://androidexample.com//upload/content/thumbnails/TableLayout_Sketch.jpg</item>
+        <item>https://developer.blackberry.com/native/files/reference/cascades/images/absolute_position_button.png</item>
+        <item>https://i.stack.imgur.com/9yKAo.png</item>
+        <item>https://i.stack.imgur.com/9yKAo.png</item>
+
+    </string-array>
 </resources>
